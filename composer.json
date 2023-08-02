@@ -1,0 +1,44 @@
+{
+  "name": "ivannofick/laravelminifyobfuscate",
+  "version": "v1.0.0",
+  "license": "MIT",
+  "description": "Obfuscate your Blade templates in Laravel by encrypting HTML, CSS, and JS into one HTML file.",
+  "keywords": [
+    "laravel",
+    "obfuscate",
+    "php8",
+    "php7.4",
+    "obfuscate using php",
+    "html-obfuscate",
+    "css-obfuscate",
+    "js-obfuscate"
+  ],
+  "authors": [
+    {
+      "name": "ivannofick",
+      "email": "ivannofick@gmail.com",
+      "homepage": "https://www.ruangapp.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4.5 || ^8.0",
+    "illuminate/support": "^7.0 || ^8.0 || ^9.0 || ^10.0",
+    "illuminate/http": "^7.0 || ^8.0 || ^9.0 || ^10.0",
+    "illuminate/view": "^7.0 || ^8.0 || ^9.0 || ^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ivannofick\\Laravelminifyobfuscate\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ivannofick\\Laravelminifyobfuscate\\MinifyObfuscateProvider"
+      ]
+    }
+  }
+}
